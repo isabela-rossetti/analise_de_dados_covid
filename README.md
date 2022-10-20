@@ -1,7 +1,7 @@
-# Análise de dados - COVID-19
+# Análise da evolução da COVID-19 no Brasil
 O objetivo deste repositório é realizar uma análise preditiva da evolução dos casos de infecção da COVID-19 no Brasil.
 
-Duas fontes de dados foram utilizadas: as duas foram retiradas do Kaggle (https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset) em momentos diferentes, então uma delas (df1) contém informações do dia 22/01/2020 até 19/05/2020 (df1) e a outra (df2) está um pouco mais atualizada e possui registros até o dia 29/05/2021 (df2).
+Duas fontes de dados foram utilizadas: as duas foram retiradas do Kaggle (https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset) em momentos diferentes, então uma delas (df1) contém informações do dia 22/01/2020 até 19/05/2020 e a outra (df2) está um pouco mais atualizada e possui registros até o dia 29/05/2021.
 
 Com isso foi possível realizar uma análise preditiva a partir dos dados do df1 e da ferramenta Prophet, que é utilizada para previsões de séries temporais, e comparar o resultado com as observações reais (df2), meramente a título de curiosidade.
 
